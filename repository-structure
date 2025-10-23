@@ -1,0 +1,17 @@
+merra2-temperature-prediction/
+│
+├── data/                 # Input files
+│   ├── data_prediction.pkl
+│   └── data_training.pkl
+│   ├── lat.pkl
+│   └── lon.pkl
+│
+├── notebooks/           # Code file
+│   └── Python_file.ipynb
+│
+├── reports/             # Written report and project instruction
+│   ├── Final_Report.pdf
+│   └── Project_Instruction.pdf
+│
+├── README.md            # Explanation of the project
+└── requirements.txt     # List of required Python packages
