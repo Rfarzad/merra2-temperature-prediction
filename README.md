@@ -9,6 +9,25 @@ A simulation study compares model selection criteria (R², Adjusted R², AIC, BI
 - `notebooks/` – Jupyter notebook for data analysis and simulation
 - `reports/` – Final report (PDF) and exam instructions
 - `requirements.txt` – Python dependencies
+- Structure is shown below:
+
+merra2-temperature-prediction/
+│
+├── data/                 # Input files
+│   ├── data_prediction.pkl
+│   └── data_training.pkl
+│   ├── lat.pkl
+│   └── lon.pkl
+│
+├── notebooks/           # Code file
+│   └── Python_file.ipynb
+│
+├── reports/             # Written report and project instruction
+│   ├── Final_Report.pdf
+│   └── Project_Instruction.pdf
+│
+├── README.md            # Explanation of the project
+└── requirements.txt     # List of required Python packages
 
 ## How to Run
 1. Open the notebook in Jupyter or VS Code.
